@@ -75,7 +75,6 @@ describe('#case3 - when passing anonymous function', function(){
 		  }
 		};
 		foo.func1(function(){ expect(this).to.deep.equal(global) });
-		foo.func1(function(){ expect(this).to.deep.equal(g) });
 	});
 
 
